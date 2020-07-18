@@ -1,0 +1,48 @@
+
+a {
+    
+    color: 	#8FBC8F !important;
+    font-size: large;
+    
+
+}
+
+a:hover {
+
+    color:  #5f9f5f!important;
+    text-decoration: none !important;
+}
+
+main {
+
+    position: absolute;
+    margin: 50px auto;
+    left: 0px;
+    right: 0;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+   
+}
+
+.card {
+
+    border-style: none;
+    display: inline-block;
+    width: 500px;
+   
+}
+
+.card-body {
+    
+    text-align: center;
+    
+}
+
+/*#landing-img {
+
+   
+}*/
