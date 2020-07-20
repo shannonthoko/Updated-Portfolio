@@ -3,14 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <title>Shannon Kearney</title>
-    <link rel = "stylesheet" href = "style.css">
-    <!--Responsive Meta Tag-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-   <!--google fonts-->
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-
+        <!--Responsive Meta Tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "style.css">
+        
 </head>
 <body>
 
@@ -33,12 +33,12 @@
 
 
 
-    <main class = "container">
+    <main class = "container-fluid" id = "bio">
 
 
-        <div class ="row">
+        <div class ="row justify-content-sm-center">
 
-            <div class = "col-md-6">
+            <div class = "col-auto">
 
               <div class="card">
                 <div class="card-body">
@@ -56,6 +56,8 @@
                   <a href="https://www.linkedin.com/in/shannon-kearney-638271145/" target = "_blank">LinkedIn</a>
                   <br>
                   <a href="/Users/shannonkearney/Desktop/Homework/Portfolio/Bootcamp FINAL Kearney Resume.pdf" target = "_blank">Resume</a>
+
+                
                   
                 </div>
               </div>
@@ -65,20 +67,20 @@
         <br>
         <br>
 
-        <div class = "row">
+        <div class = "row justify-content-md-center">
 
-          <div class = "col=md-6">
+          <div class = "col-auto">
 
-            <div class="card">
+            <div class="card" id = "contact">
               <div class="card-body">
                 <h2>Get in Contact!</h2>
                 <form>
                   <div class="form-row">
                     <div class="col">
-                      <input type="text" class="form-control" id = "first" placeholder="First name">
+                      <input type="text" class="form-control" id = "first" placeholder="First">
                     </div>
                     <div class="col">
-                      <input type="text" class="form-control" id = "last" placeholder="Last name">
+                      <input type="text" class="form-control" id = "last" placeholder="Last">
                     </div>
                     <div class="col">
                       <input type="text" class="form-control" id ="email" placeholder="Email">
@@ -86,6 +88,9 @@
                 </form>
     
                 <button type="button" class="btn btn-light" id ="submit-btn">Submit</button>
+
+
+           
                
               </div>
             </div>
