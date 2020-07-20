@@ -47,6 +47,11 @@ body {
     background-color: 	#8FBC8F !important;
 }
 
+#info {
+
+    color: #8FBC8F;
+}
+
 @media only screen and (max-width: 600px){
 
  
